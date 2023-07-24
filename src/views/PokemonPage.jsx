@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { Loader } from '../components/Loader';
 import { usePokemonContext } from '../context/PokemonProvider';
 
+
 export const PokemonPage = () => {
  const { getPokemonsByID } = usePokemonContext();
  const [pokemon, setPokemon] = useState({});
