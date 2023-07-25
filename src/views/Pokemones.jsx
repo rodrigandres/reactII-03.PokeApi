@@ -29,7 +29,6 @@ export const Pokemones = () => {
               (pokemon) => pokemon.name === selectedName
             );
             setSelectedPokemon(selectedsPokemon);
-          console.log(selectedsPokemon, selectedName)
           }}
           size="sm"
           style={{ width: "300px" }}
